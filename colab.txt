@@ -1,0 +1,3 @@
+https://github.com/Mongkol29/worm-detct.git
+%cd /content/yolov5
+!python train.py --img 640 --epochs 250 --data data_yaml.yaml --cfg ./models/yolov5s.yaml --weights 'yolov5s.pt'
